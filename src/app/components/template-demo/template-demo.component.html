@@ -1,0 +1,13 @@
+<p>template-demo works!</p>
+
+<ng-container *ngIf="showMessage">
+    <p>This is displayed using ng-container.</p>
+</ng-container>
+  
+<button (click)="toggleMessage()">Toggle Message</button>
+  
+<h2>Content Projection Demo</h2>
+
+<app-content-project>
+  <p>This content is projected into the child component!</p>
+</app-content-project>
